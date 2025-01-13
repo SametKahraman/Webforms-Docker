@@ -1,4 +1,4 @@
-FROM microsoft/dotnet-framework:4.7.2-sdk-windowsservercore-1803 AS build
+FROM microsoft/dotnet-framework:4.7.2-sdk AS build
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
